@@ -37,6 +37,15 @@ class TestMultiplyDiv:
         assert division(15,3) == 5
         assert division(16,2) == 8
             
+class TestSqrtPower:
+    def test_root_positive_numbers(self):
+        assert sqrt(25,5) == 5
+        assert sqrt(36,6) == 6
+
+    def test_power_positive_numbers(self):
+        assert power(3,2) == 9
+        assert power(5,3) == 125
+
 class TestMultiplyDivideWithValidation:
     """Test multiplication and division with input validation."""
     
