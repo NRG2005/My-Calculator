@@ -18,6 +18,16 @@ class TestBasicOperations:
         assert subtract(5, 3) == 2
         assert subtract(10, 4) == 6
 
+    def test_add_negative_numbers(self):
+        """Adding negative numbers"""
+        assert add(-2,-1) == -3
+        assert add(-10,-5) == -15
+
+    def test_subtract_negative_numbers(self):
+        """Subtracting negative numbers"""
+        assert subtract(-2,-3) == 1
+        assert subtract(-10,-15) == 5
+
 class TestMultiplyDivideWithValidation:
     """Test multiplication and division with input validation."""
     
